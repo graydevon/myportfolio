@@ -7,8 +7,9 @@ import {
   FaGitAlt,
   FaGithubSquare,
   FaLink,
+  FaJava,
 } from "react-icons/fa";
-import { SiJavascript, SiStyledcomponents, SiRedux } from "react-icons/si";
+import { SiJavascript, SiStyledcomponents, SiRedux, SiCsharp, SiPython, SiCplusplus } from "react-icons/si";
 
 // Projects Images (add your images to the images directory and import below)
 import Logo from "./images/logo.svg";
@@ -24,7 +25,7 @@ export { HeroDark as Dark };
  **************************************************************
   Add your GitHub username (string - "YourUsername") below.
 */
-export const githubUsername = "Your GitHub username here";
+export const githubUsername = "graydevon";
 
 // Blog link icon (imported above)
 export const Blog = <FaLink />;
@@ -34,7 +35,7 @@ export const Blog = <FaLink />;
   Add a second paragraph for the about me section.
 */
 export const moreInfo =
-  "I enjoy learning about technology and helping others use it to improve their lives and be more productive. I built this site with React, Bootstrap, Redux, and the GitHub REST API.";
+  "Im a Full Stack Software Developer with 1+ years' background in creating and advancing technology solutions to enhance productivity. Several successful projects under my belt, and I'd say my portfolio better introduces me than my words do. Passionate coder, very patient, and good colleague to work with.";
 
 /* Skills
  ************************************************************** 
@@ -68,13 +69,13 @@ export const skillData = [
   },
   {
     id: 6,
-    skill: <SiStyledcomponents className="display-4" />,
-    name: "Styled Components",
+    skill: <SiCplusplus className="display-4" />,
+    name: "C++",
   },
   {
     id: 7,
-    skill: <SiRedux className="display-4" />,
-    name: "Redux",
+    skill: <SiPython className="display-4" />,
+    name: "Python",
   },
   {
     id: 8,
@@ -83,8 +84,8 @@ export const skillData = [
   },
   {
     id: 9,
-    skill: <FaGithubSquare className="display-4" />,
-    name: "GitHub",
+    skill: <FaJava className="display-4" />,
+    name: "Java",
   },
 ];
 
@@ -95,7 +96,7 @@ export const resume = null;
  ************************************************************** 
   List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 will be included.
 */
-export const filteredProjects = ["example-1", "example-2", "example-3"];
+export const filteredProjects = ["hold-me-accountable", "Book-Search-Engine", "U-Playing"];
 
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 13-14)
 export const projectCardImages = [
@@ -110,4 +111,4 @@ export const projectCardImages = [
   Add your formspree endpoint below.
   https://formspree.io/
 */
-export const formspreeUrl = "https://formspree.io/f/YourEndpoint";
+export const formspreeUrl = "https://formspree.io/f/mpzewlqg";
