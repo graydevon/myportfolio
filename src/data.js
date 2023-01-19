@@ -118,7 +118,7 @@ export const projectCardImages = [
 ];
 
 
-/* Contact Info
+/* Contact
  ************************************************************** 
   Add your formspree endpoint below.
   https://formspree.io/
