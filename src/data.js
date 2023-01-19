@@ -96,7 +96,7 @@ export const resume = null;
  ************************************************************** 
   List the repo names (string - "your-repo-name") you want to include (they will be sorted alphabetically). If empty, only the first 3 will be included.
 */
-export const filteredProjects = ["hold-me-accountable", "Book-Search-Engine", "U-Playing"];
+export const filteredProjects = ["hold-me-accountable", "Book-Search-Engine", "Get-Facts-and-Find-Cats"];
 
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 13-14)
 export const projectCardImages = [
