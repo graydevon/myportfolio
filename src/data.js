@@ -13,6 +13,9 @@ import { SiJavascript, SiStyledcomponents, SiRedux, SiCsharp, SiPython, SiCplusp
 
 // Projects Images (add your images to the images directory and import below)
 import Logo from "./images/logo.svg";
+import Hold from "./images/hold.png";
+import Cats from "./images/cats.png";
+import Team from "./images/team.png";
 
 // Hero Images (add your images to the /images directory with the same names)
 import HeroLight from "./images/hero-light.jpg";
@@ -101,10 +104,19 @@ export const filteredProjects = ["hold-me-accountable", "Team-Profile-Generator"
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 13-14)
 export const projectCardImages = [
   {
-    name: "example-1",
-    image: Logo,
+     name: "hold-me-accountable",
+    image: Hold,
   },
+  {
+    name: "Team-Profile-Generator", 
+    image: Team,
+  },
+  {
+    name: "Get-Facts-and-Find-Cats",
+    image: Cats,
+  }
 ];
+
 
 /* Contact Info
  ************************************************************** 
